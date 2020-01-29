@@ -201,13 +201,8 @@
 
             <Button
                 android:id="@+id/btn_continue"
-                android:layout_width="match_parent"
-                android:layout_height="55dp"
-                android:background="@drawable/btn_blue_signin_primary"
-                android:fontFamily="@font/mmedium"
-                android:text="CONTINUE"
-                android:textColor="#FFF"
-                android:textSize="20dp" />
+                style="@style/btn_blue_primary"
+                android:text="CONTINUE"/>
 
 
         </LinearLayout>

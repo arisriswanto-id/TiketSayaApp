@@ -153,8 +153,7 @@ public class EditProfileAct extends AppCompatActivity {
         btn_back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent gotohome = new Intent(EditProfileAct.this,HomeAct.class);
-                startActivity(gotohome);
+                onBackPressed();
             }
         });
     }

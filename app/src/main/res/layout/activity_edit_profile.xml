@@ -272,18 +272,18 @@
                     android:src="@drawable/icon_nopic" />
             </com.github.florent37.shapeofview.shapes.CircleView>
 
-
             <Button
                 android:id="@+id/btn_add_new_photo"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:layout_marginTop="120dp"
-                android:layout_marginEnd="150dp"
+                android:layout_marginStart="70dp"
                 android:background="@drawable/bg_btn_plus_blue"
                 android:text="+"
                 android:textColor="#FFF"
                 android:textSize="22sp"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
             <LinearLayout
@@ -330,13 +330,8 @@
 
                     <Button
                         android:id="@+id/btn_save_profile"
-                        android:layout_width="match_parent"
-                        android:layout_height="55dp"
-                        android:background="@drawable/btn_blue_signin_primary"
-                        android:fontFamily="@font/mmedium"
-                        android:text="SAVE PROFILE"
-                        android:textColor="#FFF"
-                        android:textSize="20dp" />
+                        style="@style/btn_blue_primary"
+                        android:text="SAVE PROFILE" />
 
 
                 </LinearLayout>
